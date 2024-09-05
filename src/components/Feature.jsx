@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-const App = require("../../img/app.png"); 
+const App = `${process.env.URL}/img/app.png`; 
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
