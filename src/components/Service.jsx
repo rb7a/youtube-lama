@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import MiniCard from "./MiniCard";
 
-const How = `${process.env.URL}/img/how.png`; 
-const Play = `${process.env.URL}/img/play.png`; 
+const How = `https://reactwebsiteagency.netlify.app/img/how.png`; 
+const Play = `https://reactwebsiteagency.netlify.app/img/play.png`; 
 
 const Container = styled.div`
   display: flex;
