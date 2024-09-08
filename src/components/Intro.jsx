@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-const woman = `${process.env.URL}/img/woman.png`; 
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -112,7 +111,7 @@ const Intro = () => {
           </Contact>
         </Info>
       </Left>
-      <Right><Image src={Woman}/></Right>
+      <Right><Image src='${process.env.URL}/img/woman.png' /></Right>
       <AnimatedShapes/>
     </Container>
   );
