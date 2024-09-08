@@ -3,7 +3,7 @@ import styled from "styled-components";
 import MiniCard from "./MiniCard";
 
 const How = `${process.env.URL}/img/how.png`; 
-const play = `${process.env.URL}/img/play.png`; 
+const Play = `${process.env.URL}/img/play.png`; 
 
 const Container = styled.div`
   display: flex;
