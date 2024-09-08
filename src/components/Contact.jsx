@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 const Map = `${process.env.URL}/img/map.png`; 
-const phone = `${process.env.URL}/img/phone.png`; 
+const Phone = `${process.env.URL}/img/phone.png`; 
 const Send = `${process.env.URL}/img/send.png`; 
 
 const Container = styled.div`
