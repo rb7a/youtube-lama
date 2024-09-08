@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import How from "../img/how.png";
+const How = `${process.env.URL}/img/how.png`; 
 import MiniCard from "./MiniCard";
 import Play from "../img/play.png";
 
