@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import AnimatedShapes from "./AnimatedShapes";
 
+const App = `${process.env.URL}/img/app.png`; 
+
 const Container = styled.div`
   display: flex;
   @media only screen and (max-width: 480px) {
@@ -67,7 +69,7 @@ const Feature = () => {
   return (
     <Container>
       <Left>
-        <Image src=`${process.env.URL}/img/app.png` />
+        <Image src={App} />
       </Left>
       <Right>
         <Title>
