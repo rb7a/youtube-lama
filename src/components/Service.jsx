@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-const How = `${process.env.URL}/img/how.png`; 
 import MiniCard from "./MiniCard";
-import Play from "../img/play.png";
+
+const How = `${process.env.URL}/img/how.png`; 
+const play = `${process.env.URL}/img/play.png`; 
 
 const Container = styled.div`
   display: flex;
