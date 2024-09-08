@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import AnimatedShapes from "./AnimatedShapes";
 
+const Woman = `${process.env.URL}/img/woman.png`; 
+
 const Container = styled.div`
   height: calc(100vh - 50px);
   display: flex;
@@ -111,7 +113,7 @@ const Intro = () => {
           </Contact>
         </Info>
       </Left>
-      <Right><Image src='${process.env.URL}/img/woman.png' /></Right>
+      <Right><Image src={Woman} /></Right>
       <AnimatedShapes/>
     </Container>
   );
