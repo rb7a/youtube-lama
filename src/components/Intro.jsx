@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Woman from '../img/woman.png'
+const woman = `${process.env.URL}/img/woman.png`; 
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
