@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-const App = `${process.env.URL}/img/app.png`; 
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -68,7 +67,7 @@ const Feature = () => {
   return (
     <Container>
       <Left>
-        <Image src={App} />
+        <Image src=`${process.env.URL}/img/app.png` />
       </Left>
       <Right>
         <Title>
